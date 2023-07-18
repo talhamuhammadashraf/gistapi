@@ -20,9 +20,7 @@ const Search = ({ onChange }) => {
     </Wrapper>
   );
 };
-Search.propTypes = {
-  onChange: PropTypes.func.isRequired,
-};
+Search.propTypes = {onChange: PropTypes.func.isRequired};
 
 const Wrapper = styled.div`
   padding: 8px;
